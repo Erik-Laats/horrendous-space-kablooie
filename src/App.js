@@ -10,6 +10,7 @@ function App() {
       <div className="container">
         <Header />
         <CardCreator />
+        <h1>Test</h1>
       </div>
     </div>
   );
