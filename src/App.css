@@ -1,0 +1,48 @@
+textarea {
+  resize: none;
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-name-preview {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  display: inline;
+}
+
+.card-type-preview {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: inline;
+}
+
+.card-art-preview {
+  position: absolute;
+  top: 30px;
+  left: 7px;
+  width: 180px;
+  height: 120px;
+  border: 2px black solid;
+  /* right: 5px; */
+  display: block;
+  background-position: center;
+  background-size: cover;
+}
+.cardPreview {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  border: 3px black solid;
+}
+
+.card-text-preview {
+  position: absolute;
+  top: 160px;
+  left: 7px;
+  width: 180px;
+  height: 120px;
+}
